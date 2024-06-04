@@ -1,72 +1,7 @@
-/* body{
-    background-image: url(hot-gadgets/bg-2.png);
-    background-repeat: no-repeat;
-    background-position: left;
-} */
-.container{
-    margin-top: 30px;
-    margin-bottom: 110px;
-}
+
 .slide{
     background-image: url(hot-gadgets/bg-1.png);
     background-repeat: no-repeat;
     background-position: center;
    background-size: contain;
-}
-p{
-    color: gray;
-}
-.buy-now{
-    background-color: black;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    color:#fff;
-}
-.card-body{
-    text-align: center;
-}
-.headline{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-}
-.headline a{
-    text-decoration: none;
-    color: orange;
-}
-.card{
-    border: none;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px gray;
-}
-.catagoris{
-    text-align: center;
-    margin-bottom: 50px;
-}
-.catagoris >h3 {
-    border-bottom: 4px solid ;
-    border-image: linear-gradient(lightsalmon , tomato);
-    border-image-slice: 1;
-    border-radius: 30%;
-    display: inline;
-    
-}
-.dic{
-    padding: 50px 40px;
-    text-align: center;
-}
-.dic > img {
-    height: auto;
-    width: auto;
-    margin-bottom: 10px;
-}
-.dic-1{
-    text-align: center;
-    padding: 10px 0;
-}
-.dic-1 > img {
-    height: auto;
-    width: auto;
-   margin-bottom: 10px;
 }

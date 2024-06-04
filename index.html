@@ -8,31 +8,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5 ">
-                <img src="hot-gadgets/logo.png" alt="">
-            </div>
-            <div class="col-md-7">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#product">Products</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#about">About us</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact us</a>
-                    </li>
-                </ul>
-            </div>
+    <header class="container-fluid position-sticky sticky-top ">
+      <nav class="navbar navbar-expand-lg bg-success ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="w-50" src="hot-gadgets/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
+      </nav>
 
-    <div class="container">
+    </header>
+
+    <div class="container mt-5">
         <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -43,39 +47,39 @@
           <div class="carousel-item active">
             <div class="row">
                 <div class="col-md-7 align-content-center">
-                    <h3>Mackbook Pro</h3>
+                    <p class="h3">Mackbook Pro</p>
                     <p>Contrary to popula belive Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, consequatur? Omnis qui molestias fugiat delectus, ex nostrum minima iure similique </p>
-                    <button class="buy-now">Buy Now →</button>
+                    <button class="btn btn-primary">Buy Now →</button>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 ">
 
-                    <img src="hot-gadgets/banner-products/product-1.png" class="d-block w-100" alt="...">
+                    <img src="hot-gadgets/banner-products/product-1.png" class="img-fluid" alt="...">
                 </div>
             </div>
         </div>
         <div class="carousel-item">
             <div class="row">
                 <div class="col-md-7 align-content-center">
-                    <h3>Mes speaker</h3>
+                    <p class="h3">Mes speaker</p>
                     <p>Contrary to popula belive Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, consequatur? Omnis qui molestias fugiat delectus, ex nostrum minima iure similique </p>
-                    <button class="buy-now">Buy Now →</button>
+                    <button class="btn btn-primary">Buy Now →</button>
                 </div>
                 <div class="col-md-5">
 
-                    <img src="hot-gadgets/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                    <img src="hot-gadgets/banner-products/slider-1.png" class="img-fluid" alt="...">
                 </div>
             </div>
         </div>
         <div class="carousel-item">
               <div class="row">
-                  <div class="col-md-7 align-content-center">
-                    <h3>JBJ Sound Box</h3>
+                  <div class="col-md-7 align-content-center ">
+                    <p class="h3">JBJ Sound Box</p>
                     <p>Contrary to popula belive Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, consequatur? Omnis qui molestias fugiat delectus, ex nostrum minima iure similique </p>
-                    <button class="buy-now">Buy Now →</button>
+                    <button class="btn btn-primary">Buy Now →</button>
                   </div>
                   <div class="col-md-5">
 
-                      <img src="hot-gadgets/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                      <img src="hot-gadgets/banner-products/slider-3.png" class="img-fluid" alt="...">
                   </div>
               </div>
           </div>
@@ -92,45 +96,44 @@
     </div>
 
     <div class="container">
-      <div class="headline">
-        <h3>Smartphone</h3>
-        <a href="#">See All</a>
-
+      <div class="d-flex mb-3">
+        <p class=" h3 me-auto">Smartphone</p>
+        <a href="#" class="text-warning">See All</a>
       </div>
 
         <div class="row row-cols-1 row-cols-md-3 g-3">
-          <div class="col strc">
-            <div class="card ">
-              <img src="hot-gadgets/phone/phone-1.png" class=" card-img-top" alt="...">
+          <div class="col">
+            <div class="card border-0 shadow">
+              <img src="hot-gadgets/phone/phone-1.png" class=" card-img-top img-fluid" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Redmi 10pro</h5>
+                <p class="card-title h5">Redmi 10pro</p>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <h5>$699</h5>
-                <button class="buy-now">Buy Now →</button>
+                <p class="h5">$699</p>
+                <button class="btn btn-primary">Buy Now →</button>
 
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card border-0 shadow">
               <img src="hot-gadgets/phone/phone-2.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Iphone A15</h5>
+                <p class="card-title h5 ">Iphone A15</p>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <H5>$799</H5>
-                <button class="buy-now">Buy Now →</button>
+                <p class="h5">$799</p>
+                <button class="btn btn-primary">Buy Now →</button>
 
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card border-0 shadow">
               <img src="hot-gadgets/phone/phone-3.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Samsung Galaxy Note10+</h5>
+                <p class=" h5 card-title">Samsung Galaxy Note10+</p>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <h5>$999</h5>
-                <button class="buy-now">Buy Now →</button>
+                <p class="h5">$999</p>
+                <button class="btn btn-primary">Buy Now →</button>
 
               </div>
             </div>
@@ -138,44 +141,44 @@
         </div>
     </div>
 
-    <div class="container">
-      <div class="headline">
-        <h3> Laptop</h3>
-        <a href="#"> See All</a>
+    <div class="container my-5">
+      <div class="d-flex mb-3">
+        <p class="h3 me-auto"> Laptop</p>
+        <a href="#" class="text-warning"> See All</a>
       </div>
       <div class="row row-cols-1 row-cols-md-3 g-3">
-        <div class="col strc">
-          <div class="card ">
+        <div class="col ">
+          <div class="card border-0 shadow">
             <img src="hot-gadgets/laptop/product-1.png" class=" card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Asus VivoBook</h5>
+              <p class=" h5 card-title">Asus VivoBook</p>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <h5>$999</h5>
-              <button class="buy-now">Buy Now →</button>
+              <p class="h5">$999</p>
+              <button class="btn btn-primary">Buy Now →</button>
 
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div class="card border-0 shadow">
             <img src="hot-gadgets/laptop/product-2.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Razer Blade 15</h5>
+              <p class=" h5 card-title">Razer Blade 15</p>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <H5>$2799</H5>
-              <button class="buy-now">Buy Now →</button>
+              <p class="h5">$2799</p>
+              <button class="btn btn-primary">Buy Now →</button>
 
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div class="card border-0 shadow">
             <img src="hot-gadgets/laptop/product-3.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Xiamo Mi NoteBook pro</h5>
+              <p class=" h5 card-title">Xiamo Mi NoteBook pro</p>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <h5>$999</h5>
-              <button class="buy-now">Buy Now →</button>
+              <p class="h5">$999</p>
+              <button class="btn btn-primary">Buy Now →</button>
 
             </div>
           </div>
@@ -183,44 +186,34 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="catagoris">
-        <h3>Categories</h3>
+    <div class="container mb-5">
+      <div class="text-center mb-5">
+        <p class="h3 text-decoration-underline"> Categories </p>
       </div>
-      <div class="row">
-        <div class="col-md-3  d-flex align-items-center ">
-          <div class="card ">
-            <div class="dic">
-              <img src="hot-gadgets/Categories/bag.png" class="card-img" alt="">
-              <h4>Bags</h4>
-            </div>
-           
+
+      <div class="row ">
+        <div class="col-md-3 me-4 shadow rounded align-self-center text-center ">
+          <img class="mb-3" src="hot-gadgets/Categories/bag.png" alt="">
+          <p class="h4"> Bags</p>
+        </div>
+
+        <div class="col-md-3 d-flex flex-wrap ">
+          <div class="col-12 shadow rounded mb-3 p-3 text-center">
+            <img  src="hot-gadgets/Categories/perfume.png" alt="">
+            <p class="h4">Beauty</p>
+          </div>
+          <div class="col-12 p-3 shadow rounded text-center">
+            <img src="hot-gadgets/Categories/shoe.png" alt="">
+            <p class="h4">shoes</p>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="row mb-3 ">
-            <div class="card ">
-             <div class="dic-1">
-              <img src="hot-gadgets/Categories/perfume.png" class="card-img img-fluid" alt="">
-              <h4>Beauty</h4>
-             </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="card">
-              <div class="dic-1">
-                <img src="hot-gadgets/Categories/shoe.png" class="card-img" alt="">
-                <h4>Shoes</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <img src="hot-gadgets/Categories/pale-order.png" class="img-fluid" alt="">
+
+        <div class="container-fluid col-md-5">
+          <img class="img-fluid" src="hot-gadgets/Categories/pale-order.png" alt="">
         </div>
       </div>
-     
-   </div>
+       
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
